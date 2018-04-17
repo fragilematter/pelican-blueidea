@@ -355,7 +355,14 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		width: 615px;
 	}
 	
-	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
+	#extras div[class='blogroll'] a {
+		background-repeat: no-repeat;
+		padding-left: 90px;
+	}
+  
+	#extras .blogroll li {float: left; margin: 0 20px 0 20px; width: 185px;}
+		#extras .blogroll a {background-size: 88px 31px; padding: .38em .25em;}
+    #extras .blogroll a[href*='creativecommons.org'] {background-image: url('../images/cc_88x31.png');}
 	
 	/* Social */
 	#extras .social {
